@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: aqua;
+    background-image: url('deep2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+nav{
+    width: 100%;
+    padding-top: 2rem;
+    text-align: center;
+    height: 15vh;
+    color:aqua;
+    display: flex !important;
+    justify-content: space-between;
+    text-transform: uppercase;
+    text-shadow: 0.1rem 0.1rem 0.2rem aquamarine;
+}
+nav .logo{
+    width: 25%;
+    text-align: center;
+}
+nav .menu
+{
+    width: 40%;display: flex;
+    justify-content: space-around;
+}
+nav .menu a{
+    width: 25%;
+    text-decoration:none ;
+    color:aqua;
+    font-weight: bold;
+    text-shadow: 0.1rem 0.1rem 0.2rem aquamarine;
+}
+main{
+    width: 100%;
+    height:85vh;
+    display: flex !important;
+    justify-content: center;
+    align-items:center;
+    
+
+}
+section h3{
+    font-size: 5.5rem;
+    font-weight: 500;
+    letter-spacing: 0.3rem;
+    color: aquamarine;
+    text-shadow: 0.1rem 0.1rem 0.2rem aqua;
+}
+section h2{
+    margin: 3.0rem 0 2.0rem 0;
+    font-size: 5.5rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+    color: aquamarine;
+    text-shadow: 0.1rem 0.1rem 0.2rem aqua;
+    text-transform: uppercase;
+}
+section a{
+    padding: 1.2rem 3.0rem;
+    border-radius: 0.4rem;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 0.3rem;
+}
+section p{
+    font-size: 2.5rem;
+    word-spacing: 0.2rem;
+    margin-bottom: 2.5rem;
+    color: aquamarine;
+    text-shadow: 0.1rem 0.1rem 0.1rem black;
+}
+.btnone
+{
+    background: rgb(172, 133, 133);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+@media(max-width:2  98px){
+    html{
+        font-size: 55%;
+    }
+}
+    @media(max-width:268px) {
+        html{
+            font-size: 45%;
+        }
+        
+    }
+
